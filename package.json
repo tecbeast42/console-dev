@@ -1,0 +1,33 @@
+{
+  "name": "console-dev",
+  "version": "1.0.0",
+  "description": "Javascript functions which will disable if your javascript code is build with node production enviroment",
+  "main": "dist/main.js",
+  "scripts": {
+    "compile": "babel --presets=es2015 -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecbeast42/console-dev.git"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "js",
+    "javascript",
+    "console",
+    "debug",
+    "dev"
+  ],
+  "author": "Tobias Kriebisch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tecbeast42/console-dev/issues"
+  },
+  "homepage": "https://github.com/tecbeast42/console-dev#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
